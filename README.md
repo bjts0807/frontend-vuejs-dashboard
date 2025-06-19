@@ -6,7 +6,7 @@ Este repositorio contiene el frontend del sistema de dashboards personalizados, 
 
 - Template utilizado: Sneat Free, https://demos.themeselection.com/sneat-vuetify-vuejs-admin-template-free/demo/dashboard
 - Vuejs 3, Composition API
-- Vurtify 3
+- Vuetify 3
 - Pinia
 - Chartjs
 - SweetAlert2
@@ -19,8 +19,8 @@ Este repositorio contiene el frontend del sistema de dashboards personalizados, 
 - Acceso a la API NestJS corriendo localmente
 
 # Instalación 
-- Clona el repositorio: git clone 
-- Entra a la carpeta : 
+- Clona el repositorio: git clone https://github.com/bjts0807/frontend-vuejs-dashboard.git
+- Entra a la carpeta : cd frontend-vuejs-dashboard
 - Instala las dependencias : npm install
 
 # variables de entorno
@@ -35,7 +35,7 @@ Este repositorio contiene el frontend del sistema de dashboards personalizados, 
 - Importante tener habilitado enableCors el origin para evitar bloqueo cors de http://localhost:5173 en el archivo main.ts de la api de nestjs.
  
 
-# Autenticación y Funcionamlidades
+# Autenticación y Funcionalidades
 
 - Inicie sesión o registrese donde dice registarse
 - Luego de iniciar sesión, se redirigira a mi panel, donde podrá ver los dashboards creados y la opción de crear o editar dashboards
